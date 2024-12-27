@@ -2,7 +2,7 @@ import telebot
 
 
 # Replace ‘YOUR_API_TOKEN’ with the API token you received from the BotFather
-API_TOKEN = "7352121940:AAFZDHb_JXJzglBK2k8V53_ZmQXBux4EfWM"
+API_TOKEN = "YOUR_API_TOKEN"
 
 badwords = open("badwords.txt", "r", encoding="utf-8")
 badword_list = badwords.read().split("\n")
